@@ -126,8 +126,8 @@ body {
 .slideshow {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.6fr 0.4fr;
-  grid-template-columns: 0.6fr 0.4fr;
+  -ms-grid-columns: 0.615fr 0.385fr;
+  grid-template-columns: 0.615fr 0.385fr;
   overflow: hidden;
 }
 
@@ -248,6 +248,16 @@ body {
 }
 
 /* Media Queries */
+
+@media only screen and (max-width: 1390px) {
+  .description h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    padding: 10%;
+  }
+}
 
 @media only screen and (max-width: 1170px) {
   html,
