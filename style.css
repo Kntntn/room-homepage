@@ -250,20 +250,17 @@ body {
 /* Media Queries */
 
 @media only screen and (max-width: 1600px) {
-  h1 {
+  .description h1 {
+    font-size: 2rem;
     font-weight: 600;
   }
 
   p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
 @media only screen and (max-width: 1390px) {
-  .description h1 {
-    font-size: 2rem;
-  }
-
   .description {
     padding: 10%;
   }
