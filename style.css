@@ -249,6 +249,16 @@ body {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1600px) {
+  h1 {
+    font-weight: 600;
+  }
+
+  p {
+    font-size: .8rem;
+  }
+}
+
 @media only screen and (max-width: 1390px) {
   .description h1 {
     font-size: 2rem;
